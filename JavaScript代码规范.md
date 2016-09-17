@@ -1,6 +1,9 @@
- [1. 代码风格](#codeStyle)<br/>
- [1.1 编码](#encoding)<br/> 
- [1.2 结构](#structure) <br/>
+
+#JavaScript编码规范
+
+[1. 代码风格](#codeStyle)<br/>
+[1.1 编码](#encoding)<br/> 
+[1.2 结构](#structure) <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 缩进](#indent)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 空格](#space)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.3 换行](#wrap)<br/>
