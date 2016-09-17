@@ -525,7 +525,39 @@ if(condition){
 }
 ```
 #### <a id="switch">2.2.2 switch</a>
-// TODO: 定义switch编码规范
+* switch 下的 case 和 default 必须增加一个缩进层级
+```javascript
+//bad
+switch (variable) {
+
+case '1':
+    // do something...
+    break;
+
+case '2':
+    // do something...
+    break;
+
+default:
+    // do something...
+
+}
+//good
+switch (variable) {
+
+    case '1':
+        // do something...
+        break;
+
+    case '2':
+        // do something...
+        break;
+
+    default:
+        // do something...
+
+}
+```
 
 ### <a id="string">2.3 字符串</a>
 * 使用单引号`''`包裹字符串
