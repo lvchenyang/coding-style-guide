@@ -1,36 +1,36 @@
 # [1. 代码风格](#codeStyle)
-#### [1.1 编码](#encoding)
-#### [1.2 结构](#structure)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 缩进](#indent)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 空格](#space)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.3 换行](#wrap)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.4 语句](#line)
-#### [1.3 命名](#name)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.1 文件命名](#fileName)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.2 对象命名](#objectName)
-#### [1.4 注释](#notes)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.1 单行注释](#singleNotes)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.2 多行注释](#multiNotes)
+## [1.1 编码](#encoding)
+## [1.2 结构](#structure)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 缩进](#indent)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 空格](#space)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.3 换行](#wrap)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.4 语句](#line)
+## [1.3 命名](#name)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.1 文件命名](#fileName)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.2 对象命名](#objectName)
+## [1.4 注释](#notes)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.1 单行注释](#singleNotes)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.2 多行注释](#multiNotes)
 
 
 # [2. 语言特性](#language)
-#### [2.1 变量](#variable)
-#### [2.2 控制语句](#contralStatment)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1 if/else](#ifElse)
-###### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2 while/for](#whileFor)
-#### [2.3 字符串](#string)
-#### [2.4 数组](#array)
-#### [2.5 函数](#function)
-#### [2.6 面向对象](#object)
+## [2.1 变量](#variable)
+## [2.2 控制语句](#contralStatment)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1 if/else](#ifElse)
+### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2 while/for](#whileFor)
+## [2.3 字符串](#string)
+## [2.4 数组](#array)
+## [2.5 函数](#function)
+## [2.6 面向对象](#object)
 
 # [3.jQuery](#jQuery)
 
 
 # <span id="codeStyle">1. 代码风格</span>
-#### <span id="encoding">1.1 编码</span>
+## <span id="encoding">1.1 编码</span>
 JavaScript文件的编码建议使用UTF-8格式。
-#### 1.2 结构
-###### 1.2.1 缩进
+## 1.2 结构
+### 1.2.1 缩进
 * 使用4个空格作为缩进，禁止使用Tab和两个空格进行缩进
 ```javascript
 //bad
