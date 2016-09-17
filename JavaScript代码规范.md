@@ -42,7 +42,7 @@
 
 
 # <a id="codeStyle">1. 代码风格</a>
-## <a id="encoding">1.1 编码</a>
+### <a id="encoding">1.1 编码</a>
 JavaScript文件的编码建议使用UTF-8格式。
 
 
