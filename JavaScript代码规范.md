@@ -1,32 +1,32 @@
-# [1. 代码风格](#codeStyle)
-## [1.1 编码](#encoding)
-## [1.2 结构](#structure)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 缩进](#indent)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 空格](#space)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.3 换行](#wrap)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.4 语句](#line)
-## [1.3 命名](#name)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.1 文件命名](#fileName)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.2 对象命名](#objectName)
-## [1.4 注释](#notes)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.1 单行注释](#singleNotes)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.2 多行注释](#multiNotes)
+ [1. 代码风格](#codeStyle)<br/>
+ [1.1 编码](#encoding)<br/> 
+ [1.2 结构](#structure) <br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 缩进](#indent)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 空格](#space)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.3 换行](#wrap)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.4 语句](#line)<br/>
+[1.3 命名](#name)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.1 文件命名](#fileName)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.3.2 对象命名](#objectName)<br/>
+[1.4 注释](#notes)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.1 单行注释](#singleNotes)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.2 多行注释](#multiNotes)<br/>
 
 
-# [2. 语言特性](#language)
-## [2.1 变量](#variable)
-## [2.2 控制语句](#contralStatment)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1 if/else](#ifElse)
-### &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2 while/for](#whileFor)
-## [2.3 字符串](#string)
-## [2.4 数组](#array)
-## [2.5 函数](#function)
-## [2.6 面向对象](#object)
+[2. 语言特性](#language)<br/>
+[2.1 变量](#variable)<br/>
+[2.2 控制语句](#contralStatment)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.1 if/else](#ifElse)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[2.2.2 while/for](#whileFor)<br/>
+[2.3 字符串](#string)<br/>
+[2.4 数组](#array)<br/>
+[2.5 函数](#function)<br/>
+[2.6 面向对象](#object)<br/>
 
-# [3.jQuery](#jQuery)
+[3.jQuery](#jQuery)<br/>
 
 
-# <span id="codeStyle">1. 代码风格</span>
+# <a id="codeStyle" class="anchor">1. 代码风格</a>
 ## <span id="encoding">1.1 编码</span>
 JavaScript文件的编码建议使用UTF-8格式。
 ## 1.2 结构
