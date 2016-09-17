@@ -735,7 +735,7 @@ var dom = $('.container');
 var $dom=$('.container');
 ```
 
-*缓存jQuery对象
+* 缓存jQuery对象
 ```javascript
 //bad
 function setNavBar() {
