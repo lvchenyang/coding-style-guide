@@ -2,12 +2,13 @@
 #JavaScript编码规范
 
 [1. 代码风格](#codeStyle)<br/>
-[1.1 编码](#encoding)<br/> 
+[1.1 编码（encoding）](#encoding)<br/> 
 [1.2 结构](#structure) <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.1 缩进](#indent)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.2 空格](#space)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.3 换行](#wrap)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.4 语句](#statement)<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.2.5 函数代码块](#functionStatement)<br/>
 [1.3 命名](#naming)<br/>
 [1.4 注释](#notes)<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[1.4.1 单行注释](#singleNotes)<br/>
@@ -30,6 +31,13 @@
 
 
 [3.jQuery](#jQuery)<br/>
+[3.1 jQuery变量](#jQueryVariable)<br/>
+[3.2 文档查询](#jQueryVariable)<br/>
+[3.3 事件绑定](#jQueryEvnet)<br/>
+[3.4 插件](#jQueryPlugin)<br/>
+[3.5 扩展](#jQueryExtend)<br/>
+
+[4 交互](#interaction)<br/>
 
 
 
@@ -294,6 +302,12 @@ var person = {
 (function(){
     // do something...
 })();
+```
+
+### <a id="functionStatment">1.2.5 函数代码块</a>
+* 每个文件的自定义代码块应放在文件末尾进行定义
+```javascript
+//TODO: 
 ```
 
 
@@ -731,6 +745,7 @@ User.getAge = function() {
 ```
 
 # <a id="jQuery">3 jQuery</a>
+### <a id="jQueryVariable">3.1 jQuery变量</a>
 * 使用`$`作为存储jQuery对象的变量名前缀
 ```javascript
 //bad
@@ -739,7 +754,6 @@ var dom = $('.container');
 //good
 var $dom=$('.container');
 ```
-
 * 缓存jQuery对象
 ```javascript
 //bad
@@ -761,3 +775,24 @@ function setNavBar() {
     });
 }
 ```
+### <a id="jQueryVariable">3.2 文档查询</a>
+```javascript
+//TODO:
+```
+
+### <a id="jQueryEvnet">3.3 事件绑定</a>
+```javascript
+//TODO:事件绑定 demo
+```
+
+### <a id="jQueryPlugin">3.4 插件</a>
+```javascript
+//TODO: 插件Demo
+```
+
+### <a id="jQueryExtend">3.5 扩展</a>
+```javascript
+//TODO: 扩展Demo
+```
+
+# <a id="interaction">4 交互</a>
