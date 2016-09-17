@@ -715,7 +715,9 @@ User.getAge = function() {
 
 ### <a id="modular">2.7 模块</a>
 * 模块的定义应该以`+`开头
+
 > 确保某些不好的模块忘记包含最后的分号，使得其在代码合并后不会产生错误
+
 * 在模块顶部添加`'use strict';`声明
 ```javascript
 +(function($){
